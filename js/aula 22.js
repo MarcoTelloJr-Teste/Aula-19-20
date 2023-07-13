@@ -20,6 +20,7 @@ xhr.onload = function () {
   img.src = resultado[0].flags.png;
   bandeira.appendChild(img);
   
+  
 };
 xhr.send();
 
